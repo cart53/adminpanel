@@ -2,9 +2,9 @@
 
 namespace Cart53\AdminPanel;
 
+use Cart53\AdminPanel\Commands\AdminPanelCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Cart53\AdminPanel\Commands\AdminPanelCommand;
 
 class AdminPanelServiceProvider extends PackageServiceProvider
 {

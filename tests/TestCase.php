@@ -2,9 +2,9 @@
 
 namespace Cart53\AdminPanel\Tests;
 
+use Cart53\AdminPanel\AdminPanelServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Cart53\AdminPanel\AdminPanelServiceProvider;
 
 class TestCase extends Orchestra
 {
